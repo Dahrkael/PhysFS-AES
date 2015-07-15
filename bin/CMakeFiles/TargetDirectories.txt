@@ -1,0 +1,5 @@
+H:/physfs-2.0.2/bin/CMakeFiles/ALL_BUILD.dir
+H:/physfs-2.0.2/bin/CMakeFiles/ZERO_CHECK.dir
+H:/physfs-2.0.2/bin/CMakeFiles/physfs.dir
+H:/physfs-2.0.2/bin/CMakeFiles/physfs-static.dir
+H:/physfs-2.0.2/bin/CMakeFiles/test_physfs.dir

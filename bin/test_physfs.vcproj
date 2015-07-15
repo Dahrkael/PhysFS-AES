@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="test_physfs"
+	ProjectGUID="{AFE2D3C7-914C-4D74-B15D-CF1F7F76E612}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="test_physfs.dir\Debug"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="H:\physfs-2.0.2\.;H:\physfs-2.0.2\zlib123;"
+				BasicRuntimeChecks="3"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS=1;_REENTRANT;_THREAD_SAFE;HAVE_ASSERT_H=1;PHYSFS_SUPPORTS_ZIP=1;PHYSFS_SUPPORTS_7Z=1;PHYSFS_SUPPORTS_GRP=1;PHYSFS_SUPPORTS_WAD=1;PHYSFS_SUPPORTS_HOG=1;PHYSFS_SUPPORTS_MVL=1;PHYSFS_SUPPORTS_QPAK=1;Z_PREFIX=1;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:\physfs-2.0.2\bin\Debug/test_physfs.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="H:\physfs-2.0.2\.;H:\physfs-2.0.2\zlib123;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS=1;_REENTRANT;_THREAD_SAFE;HAVE_ASSERT_H=1;PHYSFS_SUPPORTS_ZIP=1;PHYSFS_SUPPORTS_7Z=1;PHYSFS_SUPPORTS_GRP=1;PHYSFS_SUPPORTS_WAD=1;PHYSFS_SUPPORTS_HOG=1;PHYSFS_SUPPORTS_MVL=1;PHYSFS_SUPPORTS_QPAK=1;Z_PREFIX=1;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  Debug\physfs.lib "
+				OutputFile="H:\physfs-2.0.2\bin\Debug\test_physfs.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="H:\physfs-2.0.2\bin\Debug/test_physfs.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="H:\physfs-2.0.2\bin\Debug\test_physfs.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="test_physfs.dir\Release"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="H:\physfs-2.0.2\.;H:\physfs-2.0.2\zlib123;"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_REENTRANT;_THREAD_SAFE;HAVE_ASSERT_H=1;PHYSFS_SUPPORTS_ZIP=1;PHYSFS_SUPPORTS_7Z=1;PHYSFS_SUPPORTS_GRP=1;PHYSFS_SUPPORTS_WAD=1;PHYSFS_SUPPORTS_HOG=1;PHYSFS_SUPPORTS_MVL=1;PHYSFS_SUPPORTS_QPAK=1;Z_PREFIX=1;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:\physfs-2.0.2\bin\Release/test_physfs.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="H:\physfs-2.0.2\.;H:\physfs-2.0.2\zlib123;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_REENTRANT;_THREAD_SAFE;HAVE_ASSERT_H=1;PHYSFS_SUPPORTS_ZIP=1;PHYSFS_SUPPORTS_7Z=1;PHYSFS_SUPPORTS_GRP=1;PHYSFS_SUPPORTS_WAD=1;PHYSFS_SUPPORTS_HOG=1;PHYSFS_SUPPORTS_MVL=1;PHYSFS_SUPPORTS_QPAK=1;Z_PREFIX=1;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  Release\physfs.lib "
+				OutputFile="H:\physfs-2.0.2\bin\Release\test_physfs.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="H:\physfs-2.0.2\bin\Release/test_physfs.pdb"
+				SubSystem="1"
+				ImportLibrary="H:\physfs-2.0.2\bin\Release\test_physfs.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="test_physfs.dir\MinSizeRel"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="H:\physfs-2.0.2\.;H:\physfs-2.0.2\zlib123;"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_REENTRANT;_THREAD_SAFE;HAVE_ASSERT_H=1;PHYSFS_SUPPORTS_ZIP=1;PHYSFS_SUPPORTS_7Z=1;PHYSFS_SUPPORTS_GRP=1;PHYSFS_SUPPORTS_WAD=1;PHYSFS_SUPPORTS_HOG=1;PHYSFS_SUPPORTS_MVL=1;PHYSFS_SUPPORTS_QPAK=1;Z_PREFIX=1;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:\physfs-2.0.2\bin\MinSizeRel/test_physfs.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="H:\physfs-2.0.2\.;H:\physfs-2.0.2\zlib123;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_REENTRANT;_THREAD_SAFE;HAVE_ASSERT_H=1;PHYSFS_SUPPORTS_ZIP=1;PHYSFS_SUPPORTS_7Z=1;PHYSFS_SUPPORTS_GRP=1;PHYSFS_SUPPORTS_WAD=1;PHYSFS_SUPPORTS_HOG=1;PHYSFS_SUPPORTS_MVL=1;PHYSFS_SUPPORTS_QPAK=1;Z_PREFIX=1;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  MinSizeRel\physfs.lib "
+				OutputFile="H:\physfs-2.0.2\bin\MinSizeRel\test_physfs.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="H:\physfs-2.0.2\bin\MinSizeRel/test_physfs.pdb"
+				SubSystem="1"
+				ImportLibrary="H:\physfs-2.0.2\bin\MinSizeRel\test_physfs.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="test_physfs.dir\RelWithDebInfo"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="H:\physfs-2.0.2\.;H:\physfs-2.0.2\zlib123;"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_REENTRANT;_THREAD_SAFE;HAVE_ASSERT_H=1;PHYSFS_SUPPORTS_ZIP=1;PHYSFS_SUPPORTS_7Z=1;PHYSFS_SUPPORTS_GRP=1;PHYSFS_SUPPORTS_WAD=1;PHYSFS_SUPPORTS_HOG=1;PHYSFS_SUPPORTS_MVL=1;PHYSFS_SUPPORTS_QPAK=1;Z_PREFIX=1;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:\physfs-2.0.2\bin\RelWithDebInfo/test_physfs.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="H:\physfs-2.0.2\.;H:\physfs-2.0.2\zlib123;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_REENTRANT;_THREAD_SAFE;HAVE_ASSERT_H=1;PHYSFS_SUPPORTS_ZIP=1;PHYSFS_SUPPORTS_7Z=1;PHYSFS_SUPPORTS_GRP=1;PHYSFS_SUPPORTS_WAD=1;PHYSFS_SUPPORTS_HOG=1;PHYSFS_SUPPORTS_MVL=1;PHYSFS_SUPPORTS_QPAK=1;Z_PREFIX=1;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  RelWithDebInfo\physfs.lib "
+				OutputFile="H:\physfs-2.0.2\bin\RelWithDebInfo\test_physfs.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="H:\physfs-2.0.2\bin\RelWithDebInfo/test_physfs.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="H:\physfs-2.0.2\bin\RelWithDebInfo\test_physfs.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="H:\physfs-2.0.2\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule H:/physfs-2.0.2/CMakeLists.txt"
+					CommandLine="..\cmake-2.8.5-win32-x86\bin\cmake.exe -HH:/physfs-2.0.2 -BH:/physfs-2.0.2/bin --check-stamp-file H:\physfs-2.0.2\bin\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="H:\physfs-2.0.2\CMakeLists.txt;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeVS9FindMake.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeSystem.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeRCInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompilerABI.c;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCPlatform.cmake;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXPlatform.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckIncludeFile.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckLibraryExists.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckIncludeFile.c.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindZLIB.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindwxWidgets.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindDoxygen.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\CMakeLists.txt;"
+					Outputs="H:\physfs-2.0.2\bin\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule H:/physfs-2.0.2/CMakeLists.txt"
+					CommandLine="..\cmake-2.8.5-win32-x86\bin\cmake.exe -HH:/physfs-2.0.2 -BH:/physfs-2.0.2/bin --check-stamp-file H:\physfs-2.0.2\bin\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="H:\physfs-2.0.2\CMakeLists.txt;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeVS9FindMake.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeSystem.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeRCInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompilerABI.c;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCPlatform.cmake;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXPlatform.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckIncludeFile.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckLibraryExists.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckIncludeFile.c.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindZLIB.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindwxWidgets.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindDoxygen.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\CMakeLists.txt;"
+					Outputs="H:\physfs-2.0.2\bin\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule H:/physfs-2.0.2/CMakeLists.txt"
+					CommandLine="..\cmake-2.8.5-win32-x86\bin\cmake.exe -HH:/physfs-2.0.2 -BH:/physfs-2.0.2/bin --check-stamp-file H:\physfs-2.0.2\bin\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="H:\physfs-2.0.2\CMakeLists.txt;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeVS9FindMake.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeSystem.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeRCInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompilerABI.c;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCPlatform.cmake;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXPlatform.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckIncludeFile.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckLibraryExists.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckIncludeFile.c.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindZLIB.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindwxWidgets.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindDoxygen.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\CMakeLists.txt;"
+					Outputs="H:\physfs-2.0.2\bin\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule H:/physfs-2.0.2/CMakeLists.txt"
+					CommandLine="..\cmake-2.8.5-win32-x86\bin\cmake.exe -HH:/physfs-2.0.2 -BH:/physfs-2.0.2/bin --check-stamp-file H:\physfs-2.0.2\bin\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="H:\physfs-2.0.2\CMakeLists.txt;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeVS9FindMake.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeSystem.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeRCInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompilerABI.c;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCPlatform.cmake;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXPlatform.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\Platform\cl.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;H:\physfs-2.0.2\bin\CMakeFiles\CMakeCXXCompiler.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckIncludeFile.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckLibraryExists.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CheckIncludeFile.c.in;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindZLIB.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindwxWidgets.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindDoxygen.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;H:\physfs-2.0.2\cmake-2.8.5-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;H:\physfs-2.0.2\CMakeLists.txt;"
+					Outputs="H:\physfs-2.0.2\bin\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="H:\physfs-2.0.2\test\test_physfs.c">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
