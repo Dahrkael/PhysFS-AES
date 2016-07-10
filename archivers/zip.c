@@ -18,7 +18,7 @@
 #endif
 #include "physfs.h"
 #include "zlib.h"
-#include "fileenc.h"
+#include "AES/fileenc.h"
 
 #define __PHYSICSFS_INTERNAL__
 #include "physfs_internal.h"
